@@ -1,0 +1,190 @@
+
+@media only screen and (min-width: 425px) and (max-width: 789px) {
+  .container{
+   margin: auto;
+   display: block;
+   width: 100%;
+  }
+  .navbar{
+   display:flex;
+   justify-content: space-between;
+   flex-direction: column;
+   position: fixed;
+   z-index: 999;
+  }
+ .logo img{
+     width: 20%;
+     padding-right: 55px;
+ }
+ nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* padding-right: 300px; */
+ }
+ nav ul{}
+ .flex-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+ }
+.logo{
+    /* margin: auto; */
+    /* padding-left: 150px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-section{
+
+}
+.banner-section{
+
+}
+.banner-section p{
+
+}
+.banner-section img{
+    width: 60%;
+    height: 70%;
+}
+hr{
+    width: 60%;
+}
+.service-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service{
+    width: 80%;
+    padding: 2px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.bonus-section{
+
+}
+
+.bonus{
+  
+display: flex;
+  
+justify-content: center;
+  
+/* align-items: center; */
+  
+flex-direction: column;
+}
+.tour-item img{
+
+}
+.tour-item{
+
+display: none;
+}
+.bonusmain{}
+
+.bonustex{}
+.container h1{
+    font-size: larger;
+}
+.bonussection{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bonusmain button{
+    /* width: 50%; */
+    /* height: 10%; */
+    height: 20px;
+    font-size: small;
+    width: 100px;
+}
+
+
+
+#home{
+    height: 180px;
+}
+
+.reg{
+    display: block;
+}
+.registration-form{
+    width: 50%;
+}
+.Confrim{
+    margin-top: 2px;
+    width: 70%;
+}
+.Confrim p{
+    font-size: small;
+    text-align: justify;
+}
+
+#contact{
+
+}
+.headercontact{}
+.input-container {}
+.contact-section{
+    display: block;
+}
+footer{
+    font-size: x-small;
+    color: inherit;
+}
+
+
+}
+
+
+ /*  */
+ /*  */
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container{
+    
+  }
+   .navbar {
+     
+     /* height: 200px; 
+     height: 200px;
+     display: flex; */
+     /* justify-content: center; */
+     /* justify-content: space-between;
+     flex-direction: column;
+     align-items: center; */
+   }
+ 
+   .container{
+    width: 100%;
+    padding: 0px 15px;
+   }
+   footer{
+    padding: 0px;
+   }
+   nav{}
+ }
+ .container h1{}
+ 
+ @media only screen and (min-width: 1025px) {
+   
+   .navbar {
+     
+     /* height: 250px;  */
+     
+   }
+   .container{
+     
+   }
+ 
+
+
+
+ }

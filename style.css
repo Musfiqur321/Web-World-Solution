@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(132, 138, 138);
+  color: white;
+  background-image: url("./img/bdbg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+}
+
+.logo img {
+  width: 40%;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  align-items: center;
+  background-color: rgba(95, 158, 160, 0.48);
+  position: fixed;
+  height: 125px;
+  background-blend-mode: color-burn;
+  z-index: 999;
+  padding-top: 5px;
+  
+}
+
+nav ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 0px 0px 40px;
+  margin: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(229, 17, 229);
+  font-weight: 600;
+  font-size: x-large;
+}
+
+nav ul li a:hover {
+  background-color: rgba(210, 162, 216, 0.475);
+  border-radius: 5px;
+}
+
+nav {
+  padding: 0px 20px;
+}
+
+span {
+  color: rgb(230, 18, 148);
+}
+
+.container h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.flex-banner {
+  display: flex;
+  padding: 195px 5px 5px 100px;
+}
+
+.banner-section {
+}
+
+.banner-section h1 {
+}
+
+.banner-section button {
+  background-color: rgba(237, 233, 233, 0.48);
+  padding: 10px 35px;
+  letter-spacing: 2px;
+  border-radius: 35px;
+  border: 0px;
+}
+
+button:hover {
+  background-color: rgba(240, 180, 180, 0.467);
+}
+
+.banner-section p {
+  font-size: larger;
+}
+
+
+
+.banner-section img {
+  height: 500px;
+}
+
+hr {
+  width: 800px;
+}
+
+.container span {
+}
+
+.service-section {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  padding: 5px;
+  border: 1px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(245, 222, 179, 0.18);
+}
+
+.service img {
+  width: 100%;
+}
+
+
+.service button {
+  display: block;
+  background-color: rgba(237, 233, 233, 0.48);
+  padding: 5px 15px;
+  border-radius: 35px;
+  border: 0px;
+  margin: auto;
+  align-items: center;
+}
+
+button:hover {
+  background-color: rgba(240, 180, 180, 0.467);
+  color: white;
+  font-weight: bolder;
+}
+/*  */
+/* registration */
+#registration {
+  background-image: url("./img/bdbg.png");
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 222, 240, 0.533);
+  background-blend-mode: color-burn;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.reg{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+
+.registration-form {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  padding: 20px;
+  width: 400px;
+  border: 2px solid;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input, .input-container textarea {
+  width: 90%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  font-weight: 800;
+  color: bisque;
+  letter-spacing: 1px;
+}
+
+.comment-container textarea {
+  width: 90%;
+  font-size: larger;
+  color: bisque;
+  font-weight: 900;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 50%;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  background-color: rgb(255 255 255 / 6%);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.input-container select {
+  width: 95%;
+  border: 1px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(137, 129, 129);
+}
+  
+  .registration-flex{
+    color: aliceblue;
+  }
+  /*  */
+  /* extra bonus */
+  .bonus-section{
+    /* display: flex; */
+    margin-top: 200px;
+    /* background-image: url(./img/after-removebg-preview.png); */
+    background-position: center;
+    background-size: cover;
+    background-color: #8d898526;
+    background-blend-mode: color-burn;
+}
+
+  .bonus{
+    display: flex;
+}
+ .bonustex{}
+  .bonusmain{
+    padding: 15px 15px;
+}
+
+.bonusmain button{
+  display: block;
+  background-color: rgba(226, 107, 216, 0.48);
+  padding: 5px 15px;
+  border-radius: 100px;
+  border: 0px;
+  margin: auto;
+  align-items: center;
+  font-size: xx-large;
+}
+
+  .tour-item{
+    
+margin: 20px 0px;
+    
+width: 20%;
+    
+height: 10%;
+}
+  .tour-item img{
+    width: 90%;
+}
+  .img1{
+    height: 400px;
+}
+  .img2{
+    height: 300px;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .feature {
+    font-weight: bold;
+  }
+  
+  .img1{
+    border: 2px solid saddlebrown;
+}
+  .img2{
+    border: 2px solid palevioletred;
+}
+.Confrim{
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-weight: 600;
+    color: floralwhite;
+    margin-top: 150px;
+}
+/* .Confrim p{
+  font-size: ;
+} */
+/*  */
+/* contact */
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  background-color:transparent;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.contact-box {
+  text-align: center;
+}
+.contact-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: palevioletred;
+  padding-right: 10px;
+}
+.headercontact{
+  text-align: center;
+  margin-top: 100px;
+
+}
+/*  */
+/* footer section */
+footer{
+  margin-top: 100px;
+  background-color: rgba(15, 223, 223, 0.342);
+  color:  rgb(230, 18, 148);
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+/* for scrolbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(36, 35, 35);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(163, 218, 14);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(216, 19, 167);
+}
+
